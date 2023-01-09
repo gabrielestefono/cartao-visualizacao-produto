@@ -1,0 +1,7 @@
+@import url(assets/css/reset.css);
+@import url(assets/css/container.css);
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
