@@ -13,7 +13,7 @@ body{
 }
 
 .container__presentation{
-    background-image: url(../imagens/image-product-mobile.jpg);
+    background-image: url(../img/image-product-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 14px 14px 0 0;
@@ -109,7 +109,7 @@ body{
     }
 
     .container__presentation{
-        background-image: url(../imagens/image-product-desktop.jpg);
+        background-image: url(../img/image-product-desktop.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 14px 0 0 14px;
