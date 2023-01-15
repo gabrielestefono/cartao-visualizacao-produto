@@ -1,0 +1,119 @@
+body{
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0 auto;
+}
+
+.container{
+    background-color: white;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: calc(100vw - 2rem);
+}
+
+.container__presentation{
+    background-image: url(../imagens/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px 14px 0 0;
+    height: 17.15rem;
+    width: 100%;
+}
+
+.container__title{
+    background-color: white;
+    letter-spacing: .3rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+}
+
+.container__title--text{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container__product-name{
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+}
+
+.container__product-name--text{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.container__description{
+    color: hsl(228, 12%, 48%);
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+}
+
+.container__description--text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.container__price{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: calc(100% - 2rem);
+}
+
+.container__price--promotion{
+    color: rgb(61, 129, 104);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+.container__price--commom{
+    margin-left: 1rem;
+    text-decoration:line-through;
+    vertical-align:super;
+}
+
+.container__buy{
+    margin: 1rem auto;
+}
+
+.container__buy--button{
+    background-color: rgb(61, 129, 104);
+    border: none;
+    border-radius: 14px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 3rem;
+    margin: 0 auto;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    width: calc(100% - 2rem);
+}
+
+.container__buy--button:active {
+    background-color: rgb(26, 64, 49);
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        display: flex;
+        margin-top: 10rem;
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .container__presentation{
+        background-image: url(../imagens/image-product-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 14px 0 0 14px;
+        height: 25rem;
+        width: 100%;
+    }
+}
